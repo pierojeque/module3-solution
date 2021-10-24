@@ -12,6 +12,7 @@ body {
   padding-top: 50px;
 }
 .navbar-brand h1 {
+  margin-left: 15px;
   font-family: 'Lobster', cursive;
   font-size: 50px;
   color: #fff;
@@ -54,7 +55,7 @@ div #meal-description {
   background-color: #a69098;
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-bottom: 50px;
+  margin: 0 15px 50px 15px;
   text-align: center;
 }
 div #meal-description h3 {
