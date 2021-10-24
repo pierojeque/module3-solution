@@ -1,0 +1,91 @@
+body {
+}
+
+#header-nav {
+  border-radius: 0;
+  border: 0;
+  height: 120px;
+  border-color: #4b4e5c;
+  background-color: #4b4e5c;
+}
+#navbar-brand {
+  padding-top: 50px;
+}
+.navbar-brand h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #222;
+}
+#nav-list {
+  margin-top: -2px;
+}
+#nav-list a {
+  color: #4b4e5c;
+  text-align: center;
+  background-color: #a69098;
+  border-color: #a69098;
+  font-size: 1.7em;
+  font-family: 'Crete Round', serif;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+button.navbar-toggle {
+	margin-bottom: 30px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #ebe6e8;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+}
+#menu-categories-title {
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+  text-shadow: 1px 1px 1px #c7c3c4;
+  margin-bottom: 50px;
+}
+div #meal-description {
+  background-color: #a69098;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+div #meal-description h3 {
+  font-size: 1.7em;
+  font-family: 'Crete Round', serif;
+  text-transform: uppercase;
+	}
+div #meal-description p {
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+div #meal-description a#back-to-top {
+  font-size: 1em;
+  font-family: 'Crete Round', serif;
+  text-transform: uppercase;
+  color: #0f0f0f;
+  margin-bottom: 20px;
+}
+#main-content h3 {
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+  text-align: center;
+}
+@media (max-width: 767px) {
+	div #meal-description {
+  		margin-left: 40px;
+  		margin-right: 40px;
+	}
+	.navbar-brand h1 {
+		margin-left: 40px;
+	}
+}
